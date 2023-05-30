@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-closing-bracket-location */
 import React, { useState } from 'react';
 import './calculator.css';
 import calculate from '../logic/calculate';
@@ -25,25 +24,29 @@ const Calculator = () => {
           <button
             type="button"
             className="buttons__button"
-            onClick={handleClick}>
+            onClick={handleClick}
+          >
             AC
           </button>
           <button
             type="button"
             className="buttons__button"
-            onClick={handleClick}>
+            onClick={handleClick}
+          >
             +/-
           </button>
           <button
             type="button"
             className="buttons__button"
-            onClick={handleClick}>
+            onClick={handleClick}
+          >
             %
           </button>
           <button
             type="button"
             className="buttons__button button--orange"
-            onClick={handleClick}>
+            onClick={handleClick}
+          >
             ÷
           </button>
         </div>
@@ -51,25 +54,29 @@ const Calculator = () => {
           <button
             type="button"
             className="buttons__button"
-            onClick={handleClick}>
+            onClick={handleClick}
+          >
             7
           </button>
           <button
             type="button"
             className="buttons__button"
-            onClick={handleClick}>
+            onClick={handleClick}
+          >
             8
           </button>
           <button
             type="button"
             className="buttons__button"
-            onClick={handleClick}>
+            onClick={handleClick}
+          >
             9
           </button>
           <button
             type="button"
             className="buttons__button button--orange"
-            onClick={handleClick}>
+            onClick={handleClick}
+          >
             x
           </button>
         </div>
@@ -77,25 +84,29 @@ const Calculator = () => {
           <button
             type="button"
             className="buttons__button"
-            onClick={handleClick}>
+            onClick={handleClick}
+          >
             4
           </button>
           <button
             type="button"
             className="buttons__button"
-            onClick={handleClick}>
+            onClick={handleClick}
+          >
             5
           </button>
           <button
             type="button"
             className="buttons__button"
-            onClick={handleClick}>
+            onClick={handleClick}
+          >
             6
           </button>
           <button
             type="button"
             className="buttons__button button--orange"
-            onClick={handleClick}>
+            onClick={handleClick}
+          >
             -
           </button>
         </div>
@@ -103,25 +114,29 @@ const Calculator = () => {
           <button
             type="button"
             className="buttons__button"
-            onClick={handleClick}>
+            onClick={handleClick}
+          >
             1
           </button>
           <button
             type="button"
             className="buttons__button"
-            onClick={handleClick}>
+            onClick={handleClick}
+          >
             2
           </button>
           <button
             type="button"
             className="buttons__button"
-            onClick={handleClick}>
+            onClick={handleClick}
+          >
             3
           </button>
           <button
             type="button"
             className="buttons__button button--orange"
-            onClick={handleClick}>
+            onClick={handleClick}
+          >
             +
           </button>
         </div>
@@ -129,19 +144,22 @@ const Calculator = () => {
           <button
             type="button"
             className="buttons__button button--zero"
-            onClick={handleClick}>
+            onClick={handleClick}
+          >
             0
           </button>
           <button
             type="button"
             className="buttons__button dot"
-            onClick={handleClick}>
+            onClick={handleClick}
+          >
             .
           </button>
           <button
             type="button"
             className="buttons__button equal button--orange"
-            onClick={handleClick}>
+            onClick={handleClick}
+          >
             =
           </button>
         </div>
