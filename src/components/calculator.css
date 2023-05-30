@@ -22,16 +22,21 @@
 
 .buttons {
   display: grid;
-  grid-template-rows: repeat(5, 1fr);
-  gap: 5px;
+  gap: 3px;
 }
 
 .buttons__row {
+  grid-template-columns: repeat(4, 1fr);
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 5px;
+  gap: 3px;
+}
+
+.buttons__row.bottom {
+  display: grid;
+  grid-template-columns: 2fr repeat(2, 1fr);
 }
 
 .buttons__button {
@@ -47,12 +52,21 @@
   background-color: rgb(203, 200, 200);
 }
 
+.buttons__button:hover {
+  cursor: pointer;
+  box-shadow: #000 0 0 5px;
+}
+
+.buttons__button:active {
+  transform: scale(0.95);
+}
+
 .buttons__button.button--orange {
   background-color: #f5923e;
   color: #000;
 }
 
-.buttons__button.button--zero {
+/* .buttons__button.button--zero {
   flex-grow: 2.1;
 }
 
@@ -62,4 +76,4 @@
 
 .buttons__button.equal {
   flex: 1;
-}
+} */
