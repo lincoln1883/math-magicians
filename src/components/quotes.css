@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+}
+.box {
+  width: 70%;
+  padding: 1rem;
+}
+
+.title,
+.author,
+.category {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.loading,
+.error {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 2.5rem;
+  margin: 0;
+  transform: transition 0.5s ease-in-out;
+}
+
+cite.author {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin: 10px 0 0 0;
+}
