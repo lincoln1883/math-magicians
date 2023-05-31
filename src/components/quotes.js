@@ -4,7 +4,7 @@ import './quotes.css';
 const Quotes = () => {
   const [data, setData] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
-  const [error, setError] = useState(false);
+  const [isError, setIsError] = useState(false);
 
   const apiKey = process.env.REACT_APP_API_KEY;
   const url = 'https://api.api-ninjas.com/v1/quotes?category=';
@@ -13,7 +13,7 @@ const Quotes = () => {
   useEffect(() => {
     const fetchData = async () => {
       setIsLoading(true);
-      setError(false);
+      setIsError(false);
       try {
         const response = await fetch(`${url}${category}`, {
           headers: {
@@ -27,10 +27,9 @@ const Quotes = () => {
         }));
         setData(returnVal);
       } catch (error) {
-        setError(true);
+        setIsError(true);
       }
       setIsLoading(false);
-      setError(false);
     };
     fetchData();
   }, [apiKey]);
@@ -39,7 +38,7 @@ const Quotes = () => {
 
   return (
     <div className="container">
-      {error && <p className="error">There was an error</p>}
+      {isError && <p className="error">Somthing went wrong...</p>}
       {isLoading && <p className="loading">Loading...</p>}
       {data.map((data) => (
         <div className="box" key={data.id}>
