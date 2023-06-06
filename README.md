@@ -43,7 +43,12 @@ The Math magicians app is a project assignment of module three where we are requ
     <li><a href="https://create-react-app.dev/">REACT</a></li>
   </ul>
 </details>
-
+<details>
+  <summary>REACT ROUTER</summary>
+  <ul>
+    <li><a href="https://reactrouter.com/en/main">REACT ROUTER</a></li>
+  </ul>
+</details>
 
 <!-- Features -->
 
@@ -51,6 +56,10 @@ The Math magicians app is a project assignment of module three where we are requ
 
 - Styling with Vanilla CSS
 - Linting with Eslint and Stylelint.
+- Routing using react router.
+- React Hooks (useState,UseEffect)
+- Fetching data from API.
+- State Management(Error,Loading)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
