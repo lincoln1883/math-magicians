@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './calculator.css';
 import calculate from '../logic/calculate';
+import Button from './Button';
 
 const Calculator = () => {
   const [numInput, setNumInput] = useState({
@@ -14,155 +15,37 @@ const Calculator = () => {
     setNumInput(newNumber);
   };
 
+  const buttons = [
+    { id: 1, name: 'AC', class: 'buttons__button' },
+    { id: 2, name: '+/-', class: 'buttons__button' },
+    { id: 3, name: '%', class: 'buttons__button' },
+    { id: 4, name: '÷', class: 'buttons__button button--orange' },
+    { id: 5, name: '7', class: 'buttons__button' },
+    { id: 6, name: '8', class: 'buttons__button' },
+    { id: 7, name: '9', class: 'buttons__button' },
+    { id: 8, name: 'x', class: 'buttons__button button--orange' },
+    { id: 9, name: '4', class: 'buttons__button' },
+    { id: 10, name: '5', class: 'buttons__button' },
+    { id: 11, name: '6', class: 'buttons__button' },
+    { id: 12, name: '-', class: 'buttons__button button--orange' },
+    { id: 13, name: '1', class: 'buttons__button' },
+    { id: 14, name: '2', class: 'buttons__button' },
+    { id: 15, name: '3', class: 'buttons__button' },
+    { id: 16, name: '+', class: 'buttons__button button--orange' },
+    { id: 17, name: '0', class: 'buttons__button button--zero' },
+    { id: 18, name: '.', class: 'buttons__button dot' },
+    { id: 19, name: '=', class: 'buttons__button equal button--orange' },
+  ];
+
   return (
     <div className="calculator">
       <div className="calculator__display">
         {numInput.next || numInput.total || numInput.operation || 0}
       </div>
       <div className="buttons">
-        <div className="buttons__row">
-          <button
-            type="button"
-            className="buttons__button"
-            onClick={handleClick}
-          >
-            AC
-          </button>
-          <button
-            type="button"
-            className="buttons__button"
-            onClick={handleClick}
-          >
-            +/-
-          </button>
-          <button
-            type="button"
-            className="buttons__button"
-            onClick={handleClick}
-          >
-            %
-          </button>
-          <button
-            type="button"
-            className="buttons__button button--orange"
-            onClick={handleClick}
-          >
-            ÷
-          </button>
-        </div>
-        <div className="buttons__row">
-          <button
-            type="button"
-            className="buttons__button"
-            onClick={handleClick}
-          >
-            7
-          </button>
-          <button
-            type="button"
-            className="buttons__button"
-            onClick={handleClick}
-          >
-            8
-          </button>
-          <button
-            type="button"
-            className="buttons__button"
-            onClick={handleClick}
-          >
-            9
-          </button>
-          <button
-            type="button"
-            className="buttons__button button--orange"
-            onClick={handleClick}
-          >
-            x
-          </button>
-        </div>
-        <div className="buttons__row">
-          <button
-            type="button"
-            className="buttons__button"
-            onClick={handleClick}
-          >
-            4
-          </button>
-          <button
-            type="button"
-            className="buttons__button"
-            onClick={handleClick}
-          >
-            5
-          </button>
-          <button
-            type="button"
-            className="buttons__button"
-            onClick={handleClick}
-          >
-            6
-          </button>
-          <button
-            type="button"
-            className="buttons__button button--orange"
-            onClick={handleClick}
-          >
-            -
-          </button>
-        </div>
-        <div className="buttons__row">
-          <button
-            type="button"
-            className="buttons__button"
-            onClick={handleClick}
-          >
-            1
-          </button>
-          <button
-            type="button"
-            className="buttons__button"
-            onClick={handleClick}
-          >
-            2
-          </button>
-          <button
-            type="button"
-            className="buttons__button"
-            onClick={handleClick}
-          >
-            3
-          </button>
-          <button
-            type="button"
-            className="buttons__button button--orange"
-            onClick={handleClick}
-          >
-            +
-          </button>
-        </div>
-        <div className="buttons__row bottom">
-          <button
-            type="button"
-            className="buttons__button button--zero"
-            onClick={handleClick}
-          >
-            0
-          </button>
-          <button
-            type="button"
-            className="buttons__button dot"
-            onClick={handleClick}
-          >
-            .
-          </button>
-          <button
-            type="button"
-            className="buttons__button equal button--orange"
-            onClick={handleClick}
-          >
-            =
-          </button>
-        </div>
+        {buttons.map((button) => (
+          <Button key={button.id} button={button} handleClick={handleClick} />
+        ))}
       </div>
     </div>
   );
