@@ -6,3 +6,62 @@
   height: 100vh;
   margin: 10px 30px;
 }
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 30px;
+}
+
+.nav-title {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  padding: 0;
+}
+
+.nav-list li {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0 5px;
+}
+
+.nav-item:hover {
+  cursor: pointer;
+  color: rgb(62, 157, 188);
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+  margin: 50px 30px;
+}
+
+.active {
+  color: red;
+}
+
+.text-container {
+  text-align: start;
+  padding: 20px 50px;
+}
+
+.text-container p {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.not-found__text {
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+}
