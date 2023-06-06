@@ -112,10 +112,6 @@ To test CSS:
     run `npx stylelint "**/*.{css,scss}" `
 ```
 
-### Deployment
-
-> Coming soon
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
