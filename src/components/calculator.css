@@ -29,10 +29,6 @@
 .buttons__button.button--zero {
   grid-column: span 2;
 }
-.buttons__button.dot,
-.buttons__button.equal.button--orange {
-  grid-template-columns: span 1;
-}
 
 .buttons__button {
   flex: 1;

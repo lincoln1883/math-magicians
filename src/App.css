@@ -33,6 +33,10 @@
   padding: 0 5px;
 }
 
+.nav-item {
+  text-decoration: none;
+}
+
 .nav-item:hover {
   cursor: pointer;
   color: rgb(62, 157, 188);
@@ -48,6 +52,7 @@
 
 .active {
   color: red;
+  text-decoration: underline;
 }
 
 .text-container {
