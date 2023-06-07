@@ -6,7 +6,7 @@ const Button = ({ button, handleClick }) => (
     <button
       type="button"
       key={button.id}
-      className={button.class}
+      className={button.classes}
       onClick={handleClick}
     >
       {button.name}
@@ -18,7 +18,7 @@ Button.propTypes = {
   button: PropTypes.shape({
     id: PropTypes.number.isRequired,
     name: PropTypes.string.isRequired,
-    class: PropTypes.string.isRequired,
+    classes: PropTypes.string.isRequired,
   }).isRequired,
 };
 export default Button;
