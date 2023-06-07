@@ -100,16 +100,10 @@ open the index.html file in your browser using the live server extension.
 
 ### Run tests
 
-To test JavaScript:
+To test please execute the following command:
 
 ```sh
-    run `npx eslint "**/*.{js,jsx}"`
-```
-
-To test CSS:
-
-```sh
-    run `npx stylelint "**/*.{css,scss}" `
+    run `npm test`
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -123,6 +117,12 @@ To test CSS:
 - GitHub: [lincoln1883](https://github.com/lincoln1883)
 - Twitter: [lincolngibson7](https://twitter.com/lincolngibson7)
 - LinkedIn: [lincoln-gibson](https://linkedin.com/in/lincoln-gibson)
+
+####👤 Marco Baquero
+
+- GitHub: [mrcbq](https://github.com/mrcbq)
+- Twitter: [mrcbq](https://twitter.com/mrcbq)
+- LinkedIn: [mrcbq](https://linkedin.com/in/mrcbq)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
