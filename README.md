@@ -58,6 +58,7 @@ The Math magicians app is a project assignment of module three where we are requ
 - React Hooks (useState,UseEffect)
 - Fetching data from API.
 - State Management(Error,Loading)
+- Testing with Jest & React Testing Library.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -127,11 +128,6 @@ To test please execute the following command:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- Testing with Jest
-- Routing using react router.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
