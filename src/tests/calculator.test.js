@@ -6,9 +6,7 @@ import Calculator from '../components/calculator';
 it('test_calculator_displays_initial_value', () => {
   const calculator = render(<Calculator />);
 
-  expect(
-    calculator.container.querySelector('.calculator__display').innerHTML,
-  ).toBe('0');
+  expect(calculator.container.querySelector('.calculator__display').innerHTML).toBe('0');
 });
 
 it('test_calculator_updates_display_on_button_click', () => {
