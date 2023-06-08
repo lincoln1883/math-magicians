@@ -58,6 +58,7 @@ The Math magicians app is a project assignment of module three where we are requ
 - React Hooks (useState,UseEffect)
 - Fetching data from API.
 - State Management(Error,Loading)
+- Testing with Jest & React Testing Library.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -100,16 +101,10 @@ open the index.html file in your browser using the live server extension.
 
 ### Run tests
 
-To test JavaScript:
+To test please execute the following command:
 
 ```sh
-    run `npx eslint "**/*.{js,jsx}"`
-```
-
-To test CSS:
-
-```sh
-    run `npx stylelint "**/*.{css,scss}" `
+    run `npm test`
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -124,14 +119,15 @@ To test CSS:
 - Twitter: [lincolngibson7](https://twitter.com/lincolngibson7)
 - LinkedIn: [lincoln-gibson](https://linkedin.com/in/lincoln-gibson)
 
+####👤 Marco Baquero
+
+- GitHub: [mrcbq](https://github.com/mrcbq)
+- Twitter: [mrcbq](https://twitter.com/mrcbq)
+- LinkedIn: [mrcbq](https://linkedin.com/in/mrcbq)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- Testing with Jest
-- Routing using react router.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
