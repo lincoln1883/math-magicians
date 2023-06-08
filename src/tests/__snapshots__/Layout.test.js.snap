@@ -23,7 +23,6 @@ Object {
               href="/"
             >
               Home
-               |
             </a>
           </li>
           <li>
@@ -32,7 +31,6 @@ Object {
               href="/calculator"
             >
               Calculator
-               |
             </a>
           </li>
           <li>
@@ -66,7 +64,6 @@ Object {
             href="/"
           >
             Home
-             |
           </a>
         </li>
         <li>
@@ -75,7 +72,6 @@ Object {
             href="/calculator"
           >
             Calculator
-             |
           </a>
         </li>
         <li>
