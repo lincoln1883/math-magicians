@@ -65,6 +65,10 @@ The Math magicians app is a project assignment of module three where we are requ
 
 <!-- LIVE DEMO -->
 
+### Live Demo <a name = "live-demo"></a>
+
+[Math Magicians](https://math-magicians-0d6h.onrender.com/)
+
 ### Prerequisites
 
 In order to run this project you need to have the following installed:
