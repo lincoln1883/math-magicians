@@ -1,0 +1,122 @@
+.App {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 10px 30px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 30px;
+}
+
+.nav-title {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  padding: 0;
+}
+
+.nav-list li {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0 5px;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-item:hover {
+  cursor: pointer;
+  color: rgb(62, 157, 188);
+}
+
+.wrapper {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  margin: 50px 30px;
+}
+
+.active {
+  text-decoration: underline;
+  color: rgb(105, 127, 189);
+}
+
+.text-container {
+  text-align: start;
+  padding: 20px 50px;
+}
+
+.text-container p {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.not-found__text {
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .App {
+    flex-direction: column;
+  }
+
+  .nav-title,
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .nav-bar {
+    align-items: center;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-list li {
+    font-size: 1.2rem;
+    padding: 0 5px;
+  }
+
+  .text-container p {
+    font-size: 1.2rem;
+  }
+
+  .not-found__text {
+    font-size: 1.5rem;
+  }
+
+  .wrapper {
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .calculator {
+    width: 100%;
+    margin: 0 10px;
+  }
+
+  .text-container {
+    width: 80%;
+    padding: 0;
+    margin: auto;
+  }
+}
