@@ -4,14 +4,34 @@ const Home = () => (
   <div className="text-container">
     <h1>Welcome to our page!</h1>
     <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eum
-      provident totam error magnam fuga hic voluptate animi, recusandae quod
-      minus quasi enim? Natus ad non laudantium dolorem libero ea!
+      The React app I developed is a
+      dynamic and interactive web application
+      that leverages the power of React Router
+      to provide seamless navigation between
+      different views. With React Router,
+      I have successfully implemented a
+      routing system that allows users to
+      move between different pages or components
+      without reloading the entire application.
+      This results in a smooth and intuitive
+      user experience, enhancing the overall
+      usability of the app.
     </p>
     <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum quidem
-      fuga sit expedita, nam enim quibusdam omnis soluta vel ut perspiciatis
-      corporis facilis ipsam quasi! Repellendus error praesentium beatae aut!
+      To ensure the reliability and maintainability
+      of the app, I have integrated Jest and
+      React Testing Library into your development
+      workflow. Jest provides a comprehensive
+      testing framework that allows me to
+      write and execute unit tests, ensuring
+      that individual components and functionalities
+      work as expected. React Testing Library
+      complements Jest by
+      providing a set of utilities to render
+      React components and interact with them
+      during tests, enabling me to simulate user
+      interactions and verify the correctness of
+      the app&apos;s behavior.
     </p>
   </div>
 );

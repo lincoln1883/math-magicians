@@ -4,10 +4,10 @@ import { NavLink } from 'react-router-dom';
 const Navbar = () => {
   const links = [
     {
-      id: 1, class: 'nav-item', path: '/', text: 'Home', symbol: ' |',
+      id: 1, class: 'nav-item', path: '/', text: 'Home',
     },
     {
-      id: 2, class: 'nav-item', path: '/calculator', text: 'Calculator', symbol: ' |',
+      id: 2, class: 'nav-item', path: '/calculator', text: 'Calculator',
     },
     {
       id: 3, class: 'nav-item', path: '/quotes', text: 'Quotes',

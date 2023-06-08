@@ -35,6 +35,7 @@
 
 .nav-item {
   text-decoration: none;
+  color: #000;
 }
 
 .nav-item:hover {
@@ -44,15 +45,14 @@
 
 .wrapper {
   display: flex;
-  flex-wrap: wrap;
   gap: 30px;
   justify-content: space-between;
   margin: 50px 30px;
 }
 
 .active {
-  color: red;
   text-decoration: underline;
+  color: rgb(105, 127, 189);
 }
 
 .text-container {
@@ -69,4 +69,54 @@
   font-size: 2rem;
   font-weight: 500;
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .App {
+    flex-direction: column;
+  }
+
+  .nav-title,
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .nav-bar {
+    align-items: center;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-list li {
+    font-size: 1.2rem;
+    padding: 0 5px;
+  }
+
+  .text-container p {
+    font-size: 1.2rem;
+  }
+
+  .not-found__text {
+    font-size: 1.5rem;
+  }
+
+  .wrapper {
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .calculator {
+    width: 100%;
+    margin: 0 10px;
+  }
+
+  .text-container {
+    width: 80%;
+    padding: 0;
+    margin: auto;
+  }
 }
