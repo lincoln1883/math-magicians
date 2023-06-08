@@ -29,7 +29,7 @@
 
 # 📖 Math Magicians <a name="about-project"></a>
 
-The Math magicians app is a project assignment of module three where we are required to build our first React app. It is a simple math calculator where you can perform basic math operations.
+The Math magicians app is a project assignment of module three where we are required to build our first React app. It is a simple math calculator where you can perform basic math operations.It features include React Hooks,React Router, Jest and React Testing Library. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
